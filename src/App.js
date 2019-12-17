@@ -1,25 +1,45 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import styled from 'styled-components'
+import canary from "./canary.jpeg"
+
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+`
+
+const Canary = styled.img`
+  width: 200px;
+  background-color: lightblue;
+  align-self: flex-start;
+`
+
+const Title = styled.p`
+  padding: 4rem 0 1rem;
+`
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+        <Title className="App-logo">
+          canary
+        </Title>
+
+      <iframe 
+        src="//iframe.dacast.com/b/144726/c/515743" 
+        allow="autoplay; encrypted-media"
+        allowFullScreen
+        title="streamy"
+        frameBorder="0"
+        width="535"
+        height="400"
+      />
+      <Canary src={canary} />
+
+    </Container>
   );
 }
 

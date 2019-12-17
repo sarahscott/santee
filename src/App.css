@@ -1,9 +1,15 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
 .App {
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20px;
   pointer-events: none;
 }
 
@@ -32,6 +38,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
