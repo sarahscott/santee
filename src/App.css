@@ -13,6 +13,10 @@ body,
   pointer-events: none;
 }
 
+.theo-player-wrapper {
+  background-color: white !important;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
