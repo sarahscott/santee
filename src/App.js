@@ -35,7 +35,7 @@ const ContentContainer = styled.div`
   @media (max-width: 768px) {
     flex-direction: column;
     width: 80%;
-    padding-top: 0;
+    padding-top: 4rem;
   }
 `
 
@@ -72,9 +72,9 @@ const ClockContainer = styled.div`
 function App() {
   return (
     <Container>
-      <Title className="App-logo">
+      {/* <Title className="App-logo">
         canary
-      </Title>
+      </Title> */}
 
       <ContentContainer>
       <StreamWrapper>
