@@ -21,7 +21,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "www.thecanarytest.com/",
+  "homepage": "https://thecanarytest.com",
   "eslintConfig": {
     "extends": "react-app"
   },
